@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header starts here */
+header{
+    background-image: url(pictures/wall1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin: 150px;
+    text-align: center;
+    color: whitesmoke;
+}
+.header-content h1{
+    font-size: 70px;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    background-color: #fc036b;
+    width: 150px;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* navbar starts here */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.navlink{
+    display: flex;
+    align-items: center;
+}
+.navlink li{
+    margin: 0 30px;
+}
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.btn{
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #fc036b;
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* navbar ends here */
+
+/* section starts here */
+ section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title h1{
+    text-align: center;
+    font-size: 4vmin;
+    color: indigo;
+    position: relative;
+    top: 15px;
+}
+
+h4{
+    color: indigo;
+    font-size: 3vmin;
+    margin: 20px auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+   color: #7c7c7c;
+
+}
+.row .column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event .row{
+    margin-top: 50px;
+}
+img:hover{
+    transform:scale(1.2);
+    transition: 3s;
+}
+.explore{
+    background-image: url(pictures/lionking.jpg);
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.explore-content{
+    width: 60%;
+    padding: 60px;
+    color: whitesmoke;
+    flex-direction:column;
+    align-items: center;
+}
+.explore p{
+    color: whitesmoke;
+}
+
+.explore h1{
+    font-size: 7vmin;
+    margin: 50px;
+    text-align: center;
+}
+.explore .btn{
+        margin-left: 40%;      
+}
+.upcoming{
+    width: 40%;
+}
+.img-col{
+    width: 60%;
+}
+.tours .img-gallery{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 100%;
+    align-items: center;
+}
+.img-gallery img{
+
+
+    max-width: 250px;
+    margin: 10px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #484872;
+    text-align: center;
+}
+@media only screen and (max-width:850px){
+    .navbar{
+        padding: 0;
+    }
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    /* color: #fc036b; */
+}
+.menu-btn{
+    display: block;
+ 
+}
+.navlink {
+    background-color: #484872;
+    width:100px;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin-top: -900px;
+    transition: all 0.5s ease;
+}
+.navlink li{
+    /* padding-left: 70%; */
+    margin: 30px auto;
+}
+.mobile-menu{
+    margin-top: 0px;
+}
+.row{
+    flex-direction: column;
+}
+.row .col{
+    margin: 20px auto;
+}
+.col img{
+    max-width: 90%;
+}
+.explore-content{
+    width: 100%
+}
+.tours .col{
+    width: 100%;
+}
+.img-gallery{
+    justify-content: center;
+    align-items: center;
+}
+.img-gallery img{
+    width: 90%;
+}
+.footer{
+    padding: 10px;
+}
+}

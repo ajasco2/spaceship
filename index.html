@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header starts here -->
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>THE WONDERFUL WORLD</h1>
+            <a href="" class="btn">learn more</a>
+        </div>
+    </header>
+    <!-- header ends here -->
+    <!-- navbar starts here -->
+    <nav class="navbar">
+          <h1 class="logo">SPACESHIP🚀</h1>
+          <ul class="navlink">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">More</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="" class="btn">Contact</a></li>
+            
+          </ul>
+
+          <img src="pictures/wall2.webp" alt="" class="menu-btn">
+        </nav>
+        <!-- navbar ends here -->
+        
+        <section class="event">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+
+                <div class="column">
+                    <img src="pictures/tobi.jpg" alt="" width="250px" height="250px">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut reiciendis  hicb doloremque rerum aperiam dolores animi adipisci quidem, autem iste?!</p>
+                    <a class="btn" href="">Learn More</a>
+                </div>
+                <div class="column">
+                    <img src="pictures/tom&jerry.jpg" alt="" width="250px" height="250px">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut reiciendis  hicb doloremque rerum aperiam dolores animi adipisci quidem, autem iste?!</p>
+                    <a class="btn" href="">Learn More</a>
+                </div>
+            </div>
+            </section>
+            <!-- end of section with event -->
+            <section class="explore">
+                <div class="explore-content">
+                    <h1>EXPLORE THE WORLD</h1>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsum similique, fugit ab iure saepe. Numquam facilis non cupiditate dolores.</p>
+                    <a href="" class="btn">Learn More</a>
+                </div>
+                </section>
+
+                <section class="tours">
+                    <div class="row">
+                        
+                            <div class="col upcoming">
+                                
+                                   <h1>UPCOMING TOUR & DESTINATION</h1>
+                                   <div class="line"></div>
+                                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora non, hic repellendus nihil nam dignissimos accusantium corporis obcaecati nesciunt quis similique sunt molestiae consequatur quae recusandae suscipit, mollitia impedit dolorum eius doloremque laborum! Ipsum repudiandae commodi porro voluptatum dolor enim?</p>
+                                   <a href="" class="btn">Learn More</a>
+                                </div>
+                        
+                        <div class="col img-col">
+                        
+                                <div class="img-gallery">                             
+                                    <img src="pictures/cyber.jpg" alt="">
+                                    <img src="pictures/cyber.jpg" alt="">
+                                    <img src="pictures/cyber.jpg" alt="">
+                                    <img src="pictures/cyber.jpg" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer">
+                    <p>No 3, ajanlekoko amodu, ilesha garage, ogun-state. | Phone: +2347034568945 | Email: ajascomotors@gmail.com
+                    </p>
+                    <p> Copywrite &copy; 2023 outdoor Adventuere</p>
+                </section>
+
+                <script>
+                    const  menuBtn = document.querySelector('.menu-btn');
+                    const navlinks = document.querySelector('.navlink');
+                    menuBtn.addEventListener('click', ()=>{
+                        navlinks.classList.toggle('mobile-menu')
+                    })
+                </script>
+</body>
+</html>
